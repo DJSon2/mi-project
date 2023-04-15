@@ -23,7 +23,7 @@ ERP 공용 기능을 만들어 여러 회사에 배포하려는 취지로 개발
 * 급여 관리 시스템(데이터 조회, 수정 및 추가 기능)
 * 근태 관리 시스템(출퇴근, 누전 근무 시간확인)
 
-# Spring 관련 file
+# 주요  file
 [급여, 근태 관련 file](https://github.com/DJSon2/mi-project-backend/tree/main/hrTeam2)
 
 
@@ -36,5 +36,5 @@ ERP 공용 기능을 만들어 여러 회사에 배포하려는 취지로 개발
  * Spring Data Jpa
  * pom.xml에 jwt 관련 라이브러리, modelmapper 및 파일 업로드 dependency 추가
 
-# front-end(React) 관련 repository
+# front-end-repository(React) 
 [front-end-repository](https://github.com/DJSon2/mi-repository-frontend)
