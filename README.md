@@ -35,3 +35,6 @@ ERP 공용 기능을 만들어 여러 회사에 배포하려는 취지로 개발
  * Spring Security
  * Spring Data Jpa
  * pom.xml에 jwt 관련 라이브러리, modelmapper 및 파일 업로드 dependency 추가
+
+# front-end(React) 관련 repository
+[front-end-repository](https://github.com/DJSon2/mi-repository-frontend)
