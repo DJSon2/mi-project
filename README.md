@@ -1,4 +1,4 @@
-## 프로젝트 명 : Miracle Investment(MI, ERP 프로그램)
+# 프로젝트 명 : Miracle Investment(MI, ERP 프로그램)
 ## 개발 인원 : 5명 
 ## 프로젝트 개요 
 ERP 공용 기능을 만들어 여러 회사에 배포하려는 취지로 개발
