@@ -1,35 +1,19 @@
 # 프로젝트 명 : Miracle Investment(MI, ERP 프로그램)
-## 개발 인원 : 5명 
+![image](https://github.com/DJSon2/mi-project-backend/assets/124123956/384581a7-1fb8-413c-8dc0-8c8090c3177e)
+
+
 ## 프로젝트 개요 
 * ERP 공용 기능을 만들어 여러 회사에 배포하려는 취지로 개발
 * 이전에 경험해본 Spring Boot와 React를 Rest API를 활용해 개발
+* 개발 인원 : 5명
 
-## 프로젝트 전체 주요 기능 
-* 사내 직원들만 사용 가능한 커뮤니티 게시판
-* 회사 전체 공지사항 확인 가능한 공지사항 게시판
-* 회원가입 당시 기재한 정보를 조회할 수 있는 마이페이지
-* 직원의 정보를 수정할 수 있는 인사팀
-* 로그인 시 사용 가능한 출/퇴 버튼을 통한 유동적인 근태 관리 가능
-* 인사팀의 추가 근무 시간, 남은 연차 일 수를 포함한 직원들의 급여 관리 시스템
-
-## Spring Boot MVC 패턴 설계 구조도
-![image](https://github.com/DJSon2/mi-project-backend/assets/124123956/514d1c0a-7f90-4a25-8f84-560d64a73c8d)
-
-## 개발 기간 : 2023.01.09 ~ 2023.01.31 
-* 제안 요청, 착수 기간 :  01.06 ~ 01.09
-* 업무 분석 및 요건 정의 기간 : 01.09 ~ 01.16
-* 기획 및 설계 단계 : 01.12 ~ 01.19
-* 개발 단계 : 01.14 ~ 01.29
-* 테스트 단계 : 01.14 ~ 01.30
-* 시연 발표 01.31  
-
-## 담당 역할 : 인사2팀(HrTeam2) 기여 100%
-* 급여 관리 시스템(데이터 조회, 수정 및 추가 기능)
-* 근태 관리 시스템(출퇴근, 누전 근무 시간확인)
-
-# 주요  file
-[급여, 근태 관련 file](https://github.com/DJSon2/mi-project-backend/tree/main/hrTeam2)
-
+## 개발 환경
+* 운영체재 : Window 10 64 bit
+* DB : Oracle 18c
+* API : Java Servlet 3.1
+* 형상관리 : GitLab
+* 언어 : Java Script, Java Open JDK 1.8.0, React 18.1.0, Java 11, CSS3
+* 마크업 언어: HTML5
 
 # 추가한 starter들
  * JDBC API
@@ -39,6 +23,53 @@
  * Spring Security
  * Spring Data Jpa
  * pom.xml에 jwt 관련 라이브러리, modelmapper 및 파일 업로드 dependency 추가
+
+## 개발 기간 : 2023.01.09 ~ 2023.01.31 
+* 제안 요청, 착수 기간 :  01.06 ~ 01.09
+* 업무 분석 및 요건 정의 기간 : 01.09 ~ 01.16
+* 기획 및 설계 단계 : 01.12 ~ 01.19
+* 개발 단계 : 01.14 ~ 01.29
+* 테스트 단계 : 01.14 ~ 01.30
+* 시연 발표 01.31  
+
+## 프로젝트 전체 주요 기능 
+* 사내 직원들만 사용 가능한 커뮤니티 게시판
+* 회사 전체 공지사항 확인 가능한 공지사항 게시판
+* 회원가입 당시 기재한 정보를 조회할 수 있는 마이페이지
+* 직원의 정보를 수정할 수 있는 인사팀
+* 로그인 시 사용 가능한 출/퇴 버튼을 통한 유동적인 근태 관리 가능
+* 인사팀의 추가 근무 시간, 남은 연차 일 수를 포함한 직원들의 급여 관리 시스템
+
+## 프로젝트 구조도(whimsical)
+![image](https://github.com/DJSon2/mi-project-backend/assets/124123956/d132e02b-f289-4ed9-8810-148a69bbd559)
+
+## 담당 역할 : 인사2팀(HrTeam2) 기여 100%
+* 급여 관리 시스템(데이터 조회, 수정 및 추가 기능)
+* 근태 관리 시스템(출퇴근, 누전 근무 시간확인)
+
+## DB 구조(Baker Notation)
+![image](https://github.com/DJSon2/mi-project-backend/assets/124123956/56078a2e-499a-44e7-8750-a873311285c9)
+
+
+
+## Spring Boot MVC 패턴 설계 구조도
+![image](https://github.com/DJSon2/mi-project-backend/assets/124123956/514d1c0a-7f90-4a25-8f84-560d64a73c8d)
+
+## 담당 역할 적용 및 설계 기준
+* 남은 연차 수당 적용 기준
+![image](https://github.com/DJSon2/mi-project-backend/assets/124123956/be662cb4-4197-4c95-a932-248aceda658f)
+* 추가 근무 수당 적용 기준
+![image](https://github.com/DJSon2/mi-project-backend/assets/124123956/594dff83-83cb-4c93-b5d8-e6db6c7fb1e6)
+
+
+
+
+
+# 주요 file
+[급여, 근태 관련 file](https://github.com/DJSon2/mi-project-backend/tree/main/hrTeam2)
+
+
+
 ---
 # 프로젝트 후기
 ## 프로젝트를 다룰 수 있고, 잘 이해할 수 있었던 기술
