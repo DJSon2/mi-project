@@ -4,10 +4,10 @@
 
 ## 프로젝트 개요 
 * ERP 공용 기능을 만들어 여러 회사에 배포하려는 취지로 개발
-* 이전에 경험해본 Spring Boot와 React를 Rest API를 활용해 개발
+* Spring Boot와 React를 Rest API를 활용해 개발
 * 개발 인원 : 5명(각 프론트 + 백엔드 기능 개발)
 * 개발 기간 : 4주 
-* 기술 스택 : React, Spring Boot
+
 
 
 ## 개발 환경
