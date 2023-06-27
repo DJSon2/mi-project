@@ -49,6 +49,7 @@
 ![image](https://github.com/DJSon2/mi-project-backend/assets/124123956/514d1c0a-7f90-4a25-8f84-560d64a73c8d)
 
 ## 담당 역할 적용 및 설계 기준
+- 적용된 기준은 실제 법적 근로 기준 및 회사에서 사용되는 기준을 참고하였습니다.
 * 남은 연차 수당 적용 기준
 ![image](https://github.com/DJSon2/mi-project-backend/assets/124123956/be662cb4-4197-4c95-a932-248aceda658f)
 * 추가 근무 수당 적용 기준
