@@ -11,9 +11,10 @@
 
 ## 개발 환경
 * 운영체재 : Window 10 64 bit
-* DB : Oracle 18c
+* DBMS : Oracle 18c
 * API : Java Servlet 3.1
 * 형상관리 : GitLab
+* GUI 클라이언트 : SourceTree
 * 언어 : Java Script, Java Open JDK 1.8.0, React 18.1.0, Java 11, CSS3
 * 마크업 언어: HTML5
 
